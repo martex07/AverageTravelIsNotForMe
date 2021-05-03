@@ -13,6 +13,13 @@
 		C12A8E15263C3E5A00E9B6E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12A8E14263C3E5A00E9B6E9 /* Assets.xcassets */; };
 		C12A8E18263C3E5A00E9B6E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12A8E17263C3E5A00E9B6E9 /* Preview Assets.xcassets */; };
 		C12A8E1B263C3E5A00E9B6E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12A8E19263C3E5A00E9B6E9 /* LaunchScreen.storyboard */; };
+		C12A8E23263C434E00E9B6E9 /* PTSerif-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C12A8E22263C434E00E9B6E9 /* PTSerif-Italic.ttf */; };
+		C12A8E25263C435B00E9B6E9 /* PTSerif-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C12A8E24263C435B00E9B6E9 /* PTSerif-BoldItalic.ttf */; };
+		C12A8E28263C5C8900E9B6E9 /* TravelDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A8E27263C5C8900E9B6E9 /* TravelDestination.swift */; };
+		C12A8E2A263C5ED100E9B6E9 /* PTSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C12A8E29263C5ED100E9B6E9 /* PTSerif-Regular.ttf */; };
+		C12A8E2E263C61A500E9B6E9 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A8E2D263C61A500E9B6E9 /* SecondView.swift */; };
+		C12A8E36263ED88500E9B6E9 /* DancingScript-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C12A8E35263ED88500E9B6E9 /* DancingScript-VariableFont_wght.ttf */; };
+		C12A8E38263EDA2100E9B6E9 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C12A8E37263EDA2100E9B6E9 /* Lobster-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		C12A8E17263C3E5A00E9B6E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C12A8E1A263C3E5A00E9B6E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C12A8E1C263C3E5A00E9B6E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C12A8E22263C434E00E9B6E9 /* PTSerif-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PTSerif-Italic.ttf"; sourceTree = "<group>"; };
+		C12A8E24263C435B00E9B6E9 /* PTSerif-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PTSerif-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C12A8E27263C5C8900E9B6E9 /* TravelDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDestination.swift; sourceTree = "<group>"; };
+		C12A8E29263C5ED100E9B6E9 /* PTSerif-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PTSerif-Regular.ttf"; sourceTree = "<group>"; };
+		C12A8E2D263C61A500E9B6E9 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		C12A8E35263ED88500E9B6E9 /* DancingScript-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		C12A8E37263EDA2100E9B6E9 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +73,12 @@
 				C12A8E0E263C3E5700E9B6E9 /* AppDelegate.swift */,
 				C12A8E10263C3E5700E9B6E9 /* SceneDelegate.swift */,
 				C12A8E12263C3E5700E9B6E9 /* ContentView.swift */,
+				C12A8E27263C5C8900E9B6E9 /* TravelDestination.swift */,
+				C12A8E2D263C61A500E9B6E9 /* SecondView.swift */,
 				C12A8E14263C3E5A00E9B6E9 /* Assets.xcassets */,
 				C12A8E19263C3E5A00E9B6E9 /* LaunchScreen.storyboard */,
 				C12A8E1C263C3E5A00E9B6E9 /* Info.plist */,
+				C12A8E26263C436200E9B6E9 /* Fonts */,
 				C12A8E16263C3E5A00E9B6E9 /* Preview Content */,
 			);
 			path = AverageTravelIsNotForMe;
@@ -73,6 +90,18 @@
 				C12A8E17263C3E5A00E9B6E9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C12A8E26263C436200E9B6E9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C12A8E24263C435B00E9B6E9 /* PTSerif-BoldItalic.ttf */,
+				C12A8E22263C434E00E9B6E9 /* PTSerif-Italic.ttf */,
+				C12A8E29263C5ED100E9B6E9 /* PTSerif-Regular.ttf */,
+				C12A8E35263ED88500E9B6E9 /* DancingScript-VariableFont_wght.ttf */,
+				C12A8E37263EDA2100E9B6E9 /* Lobster-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C12A8E1B263C3E5A00E9B6E9 /* LaunchScreen.storyboard in Resources */,
+				C12A8E38263EDA2100E9B6E9 /* Lobster-Regular.ttf in Resources */,
 				C12A8E18263C3E5A00E9B6E9 /* Preview Assets.xcassets in Resources */,
+				C12A8E23263C434E00E9B6E9 /* PTSerif-Italic.ttf in Resources */,
+				C12A8E36263ED88500E9B6E9 /* DancingScript-VariableFont_wght.ttf in Resources */,
+				C12A8E2A263C5ED100E9B6E9 /* PTSerif-Regular.ttf in Resources */,
 				C12A8E15263C3E5A00E9B6E9 /* Assets.xcassets in Resources */,
+				C12A8E25263C435B00E9B6E9 /* PTSerif-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +180,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C12A8E0F263C3E5700E9B6E9 /* AppDelegate.swift in Sources */,
+				C12A8E2E263C61A500E9B6E9 /* SecondView.swift in Sources */,
 				C12A8E11263C3E5700E9B6E9 /* SceneDelegate.swift in Sources */,
+				C12A8E28263C5C8900E9B6E9 /* TravelDestination.swift in Sources */,
 				C12A8E13263C3E5700E9B6E9 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
